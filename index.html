@@ -1,0 +1,71 @@
+<!doctype html>
+<html class="no-js" lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Mon flux instagram avec le carousel owl.js grâce à la librairie instafeed.js</title>
+        <meta name="description" content="Mon flux instagram avec le carousel owl.js grâce à la librairie instafeed.js">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <META NAME="DC.Title" CONTENT="LVdesign, studio graphique">
+        <META NAME="DC.Author" CONTENT="Laurent Vignaux">
+        <META NAME="DC.Creator" CONTENT="LVdesign">
+        <META NAME="DC.Type" CONTENT="text">
+        <META NAME="DC.Date" CONTENT="2015">
+        <META NAME="DC.Format" CONTENT="text/html">
+        <META NAME="DC.Identifier" CONTENT="http://www.lvdesign.com.fr">
+                  		    
+        <link rel="shortcut icon" href="http://www.lvdesign.com.fr/favicon.png">
+        <link rel="apple-touch-icon-precomposed" href="http://www.lvdesign.com.fr/apple-touch-icon-precomposed.png">
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+       
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
+        
+        <script src="lv-carousel-v1/js/instafeed.js"></script>
+        <script src="lv-carousel-v1/owl-v1/owl.carousel.min.js"></script>
+        <script src="lv-carousel-v1/lv-carousel-1.0.js"></script>
+        <!--appel de la function-->
+        <script type="text/javascript">
+              $(document).ready(function(){
+               $('.owl-slider').makeCarouselInstaOwl();
+             });
+         </script>    
+      
+        
+               
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <!-- Add your site or application content here -->
+        <header>
+        <h1>Hello world! This is HTML5 Boilerplate with an owl's carousel and instafeed.js's library.</h1>
+        <p>Vous pouvez envoyer en live dans un superbe carousel (owl.js) vos derniéres photos d'instagram ou autres! </p>
+         </header>       
+       
+         <div id="owl-demo">
+         <div id="instafeed" class="owl-slider"></div>
+         </div>     
+       
+       <footer><p>© design : <span class=""><a href="http://lvdesign.com.fr">lvdesign</a></span></p>
+       </footer>
+       
+      <!--  option de navigation voir /lv-carousel.css 
+        <div class="customNavigation">
+         <a class="btn prev">Previous</a>
+         <a class="btn next">Next</a>
+         <a class="btn play">Autoplay</a>
+         <a class="btn stop">Stop</a>
+         </div>-->
+       
+                      
+        
+       
+           </body>
+</html>

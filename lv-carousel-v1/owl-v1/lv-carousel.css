@@ -1,0 +1,27 @@
+@import "owl.carousel.css";
+@import "owl.theme.css";
+@import "owl.transitions.css";
+
+#owl-demo .owl-item img{
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+/* nav ds html*/
+.customNavigation{
+  text-align: center;
+}
+/*use styles below to disable ugly selection*/
+.customNavigation a{
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  background-color: gray;
+  color: white;
+  padding: .2em .4em;
+  cursor: pointer;
+}      
